@@ -5,7 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Sankusa/Scenes/MainScene.unity
+    guid: 715c0a0d71901014a904db62b776c5c9
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 3d45e51a617c3cb408453d7b7c011c7e, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: e6000cb1699c452478e922ce7e759fed, type: 2}
